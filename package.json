@@ -1,0 +1,23 @@
+{
+  "name": "@gauntface/web-push-book-theme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "build-styleguide": "gulp build-styleguide",
+    "test": "ava ./test/*-test.js --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauntface/web-push-book-theme.git"
+  },
+  "keywords": [],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gauntface/web-push-book-theme/issues"
+  },
+  "homepage": "https://github.com/gauntface/web-push-book-theme#readme"
+}
