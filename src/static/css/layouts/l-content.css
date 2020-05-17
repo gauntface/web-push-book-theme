@@ -1,0 +1,5 @@
+.l-content {
+  max-width: var(--page-content-max-width);
+  padding: 0 var(--horizontal-padding);
+  margin: var(--vertical-padding) auto;
+}

@@ -1,0 +1,7 @@
+{
+  "css": {
+    "preload": [
+      "https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Open+Sans&display=swap"
+    ]
+  }
+}

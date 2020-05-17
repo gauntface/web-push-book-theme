@@ -1,0 +1,25 @@
+.c-button {
+  display: inline-block;
+  min-width: 64px;
+  height: 36px;
+
+  color: var(--button-text-color);
+  background-color: var(--primary-link-color);
+  border: none;
+
+  padding: 0 var(--padding);
+
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 36px;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.c-button:disabled {
+  background-color: var(--primary-font-color);
+}

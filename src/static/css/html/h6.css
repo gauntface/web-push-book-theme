@@ -1,0 +1,11 @@
+h6 {
+  font-family: 'Comfortaa', cursive;
+  color: var(--hot-pink);
+  font-size: 0.8rem;
+  line-height: 1;
+  font-weight: bold;
+
+  padding-right: 60px;
+  margin-top: calc(var(--padding) * 1.5);
+  margin-bottom: 0;
+}

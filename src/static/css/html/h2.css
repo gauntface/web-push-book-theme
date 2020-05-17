@@ -1,0 +1,10 @@
+h2 {
+  font-family: 'Comfortaa', cursive;
+  color: var(--hot-pink);
+  font-size: 1.8rem;
+  line-height: 1;
+  font-weight: 500;
+
+  padding-right: 60px;
+  margin: var(--horizontal-padding) 0;
+}

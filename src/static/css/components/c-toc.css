@@ -1,0 +1,11 @@
+.c-toc {
+  list-style: none;
+}
+
+.c-toc li {
+  margin-bottom: 1rem;
+}
+
+.c-toc li a {
+  text-decoration: none;
+}
