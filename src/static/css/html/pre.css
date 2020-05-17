@@ -1,0 +1,25 @@
+pre {
+  background-color: rgba(0,0,0,.06);
+  border-radius: 3px;
+  text-shadow: none;
+  color: black;
+}
+
+pre, pre[class*="language-"] {
+  padding: var(--padding);
+  overflow-x: auto;
+}
+
+pre[class*=language-] {
+  color: rgba(0,0,0,0.87);
+}
+
+pre code {
+  width: 100%;
+
+  font-size: inherit;
+  background-color: transparent;
+
+  padding: 0;
+  box-sizing: border-box;
+}

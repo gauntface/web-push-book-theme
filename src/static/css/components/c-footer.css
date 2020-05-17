@@ -1,0 +1,23 @@
+.c-footer__top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-footer__logo {
+  width: 36px;
+  height: 36px;
+}
+
+.c-footer__bottom-row p {
+  text-align:center;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.c-footer__bottom-row a {
+  color: var(--primary-font-color);
+  text-decoration: none;
+  font-style: italic;
+}

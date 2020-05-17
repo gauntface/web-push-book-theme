@@ -1,0 +1,10 @@
+h3 {
+  font-family: 'Comfortaa', cursive;
+  color: var(--hot-pink);
+  font-size: 1.4rem;
+  line-height: 1;
+  font-weight: 500;
+
+  padding-right: 60px;
+  margin: calc(var(--padding) * 1.5) 0;
+}

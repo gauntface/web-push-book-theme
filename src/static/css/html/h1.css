@@ -1,0 +1,8 @@
+h1 {
+  font-family: 'Comfortaa', cursive;
+  color: var(--hot-pink);
+  font-weight: normal;
+
+  padding-right: 60px;
+  margin: var(--horizontal-padding) 0;
+}

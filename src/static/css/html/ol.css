@@ -1,0 +1,4 @@
+ol {
+  padding-left: 20px;
+  line-height: calc(var(--padding) * 1.5);
+}
