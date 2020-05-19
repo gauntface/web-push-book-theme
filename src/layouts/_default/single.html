@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partials "components/c-header.html" }}
-<main>{{ .Content }}</main>
-{{ partials "components/c-footer.html" }}
+{{ partial "components/c-header.html" . }}
+<main class="l-content">{{ .Content }}</main>
+{{ partial "components/c-footer.html" . }}
 {{ end }}
