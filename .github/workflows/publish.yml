@@ -1,0 +1,30 @@
+name: Publish
+
+# Run every Saturday @ 13:30 UTC => 6:30 PST
+on:
+  schedule:
+    - cron:  '30 13 * * 6'
+
+jobs:
+  publish:
+    runs-on: ubuntu-18.04
+    steps:
+      
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: Install
+        run: npm install
+      
+      - name: Build
+        run: npm run build
+      
+      - name: Test
+        run: npm run test
+
+      - name: Publish
+        uses: mikeal/merge-release@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
