@@ -6,4 +6,8 @@ code {
   color: black;
   font-family: 'Inconsolata', monospace;
   padding: 0 4px;
+
+  /* This is needed since some inline code blocks
+  need to wrap */
+  word-break: break-word;
 }

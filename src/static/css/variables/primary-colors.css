@@ -1,6 +1,6 @@
 :root {
   --white: #fff;
-  --light-grey: #757575; /* --primary-font-color: #757575 */
-  --dark-grey: #222; /* --primary-bg-highlight-color: #222; */
-  --hot-pink: #fc0f69; /* --primary-highlight-color: #fc0f69; */
+  --light-grey: #757575;
+  --dark-grey: #222;
+  --hot-pink: #fc0f69;
 }

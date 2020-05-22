@@ -1,12 +1,12 @@
 <navigation class="c-nav l-content">
   <div class="c-nav__next">
     {{ if .NextInSection }}
-    <a class="c-nav__left" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
+    <a class="c-nav__left" href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title }}</a>
     {{ end }}
   </div>
   <div class="c-nav__prev">
     {{ if .PrevInSection }}
-    <a class="c-nav__right" href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a>
+    <a class="c-nav__right" href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title }}</a>
     {{ end }}
   </div>
 </navigation>

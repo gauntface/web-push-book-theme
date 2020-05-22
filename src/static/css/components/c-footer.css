@@ -1,7 +1,13 @@
+.c-footer {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: var(--light-grey);
+}
+
 .c-footer__top-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -17,7 +23,7 @@
 }
 
 .c-footer__bottom-row a {
-  color: var(--primary-font-color);
+  color: var(--light-grey);
   text-decoration: none;
   font-style: italic;
 }

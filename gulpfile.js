@@ -172,15 +172,24 @@ for (const wt of watchTasks) {
 }
 
 gulp.task('watch-theme', gulp.series(
-  setEnv('dev'),
   'perform-build',
   'styleguide-themes',
   gulp.parallel(...watchTaskNames),
 ));
 
-gulp.task('watch',
+gulp.task('watch-theme-dev', gulp.series(
+  setEnv('dev'),
+  'watch-theme',
+));
+gulp.task('watch-theme-prod', gulp.series(
+  setEnv('prod'),
+  'watch-theme',
+));
+
+gulp.task('watch', gulp.series(
+  setEnv('dev'),
   gulp.parallel(
     'watch-theme',
     'hugo-server',
   ),
-);
+));
