@@ -8,7 +8,7 @@
   "scripts": {
     "build": "gulp build",
     "build-styleguide": "gulp build-styleguide",
-    "test": "ava ./test/*-test.js --verbose"
+    "test": "npm run build && ava ./test/*-test.js --verbose"
   },
   "repository": {
     "type": "git",
