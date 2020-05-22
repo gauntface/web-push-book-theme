@@ -1,6 +1,8 @@
 <header class="c-header">
   <div class="c-header__content l-content">
+    {{ if not (eq .RelPermalink $.Site.Home.RelPermalink)}}
     <h6 class="c-header__site"><a href="{{ $.Site.Home.RelPermalink }}">{{ $.Site.Home.Title }}</a></h6>
+    {{ end }}
     <h1 class="c-header__title">{{ .Title }}</h1>
   </div>
 </header>
