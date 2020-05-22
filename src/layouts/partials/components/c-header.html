@@ -1,3 +1,6 @@
 <header class="c-header">
-  <h1>{{ .Title }}</h1>
+  <div class="l-content">
+    <h6 class="c-header__site"><a href="{{ $.Site.Home.Permalink }}">{{ $.Site.Home.Title }}</a></h6>
+    <h1 class="c-header__title">{{ .Title }}</h1>
+  </div>
 </header>

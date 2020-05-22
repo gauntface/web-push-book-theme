@@ -6,4 +6,5 @@ body {
   font-size: 16px;
   line-height: 1.8rem;
   color: var(--light-grey);
+  margin: 0;
 }

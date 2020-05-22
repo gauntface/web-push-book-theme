@@ -1,0 +1,33 @@
+.c-nav.l-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 64px auto;
+}
+
+.c-nav__next, .c-nav__prev {
+  display: inline-flex;
+}
+
+.c-nav__left, .c-nav__right {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.c-nav__left::before, .c-nav__right::after {
+  content: '';
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  background-repeat: no-repeat;
+}
+
+.c-nav__left::before {
+  margin-right: 24px;
+  background-image: url('/images/left-arrow.svg');
+}
+
+.c-nav__right::after {
+  margin-left: 24px;
+  background-image: url('/images/right-arrow.svg');
+}
