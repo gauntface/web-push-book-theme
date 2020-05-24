@@ -29,7 +29,7 @@
     "@gauntface/hugo-node": "1.0.8",
     "@hopin/hugo-base-theme": "0.0.318",
     "@hopin/hugo-styleguide": "0.0.188",
-    "@hopin/wbt-clean": "0.0.124",
+    "@hopin/wbt-clean": "0.0.125",
     "@hopin/wbt-css": "0.0.123",
     "@hopin/wbt-ts-browser": "0.0.124",
     "ava": "3.8.2",
