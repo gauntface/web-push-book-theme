@@ -31,7 +31,7 @@
     "@hopin/hugo-styleguide": "0.0.188",
     "@hopin/wbt-clean": "0.0.124",
     "@hopin/wbt-css": "0.0.123",
-    "@hopin/wbt-ts-browser": "0.0.123",
+    "@hopin/wbt-ts-browser": "0.0.124",
     "ava": "3.8.2",
     "dir-compare": "2.3.0",
     "fs-extra": "9.0.0"
