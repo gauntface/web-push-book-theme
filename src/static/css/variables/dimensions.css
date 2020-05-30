@@ -8,4 +8,9 @@
 
   --menu-button-height: 64px;
   --menu-button-svg-size: 24px;
+
+  --toggle-height: 48px;
+  --toggle-width: 96px;
+  --toggle-indent: 4px;
+  --toggle-ring-size: calc(var(--toggle-height) - calc(var(--toggle-indent) * 2));
 }
