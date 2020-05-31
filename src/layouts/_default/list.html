@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ partial "components/c-header.html" . }}
+<main class="l-content">
+  <ul>
+    {{ range .Pages }}
+      {{ if not .Params.private  }}
+      <li><a href='{{ .RelPermalink }}'>{{ .Title }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</main>
+{{ partial "components/c-footer.html" . }}
+{{ end }}

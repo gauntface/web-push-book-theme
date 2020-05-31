@@ -1,7 +1,9 @@
 <ul class="c-toc l-content">
   {{ range .Pages.ByWeight }}
-      <li>
-          <a href="{{.RelPermalink}}">{{.Title}}</a>
-      </li>
+    {{ if ne .Section "demos" }}
+    <li>
+      <a href="{{.RelPermalink}}">{{.Title}}</a>
+    </li>
+    {{end}}
   {{ end }}
 </ul>
