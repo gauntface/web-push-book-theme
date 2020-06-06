@@ -26,7 +26,7 @@
   "homepage": "https://github.com/gauntface/web-push-book-theme#readme",
   "devDependencies": {
     "@gauntface/html-asset-manager": "1.0.4",
-    "@gauntface/hugo-node": "1.0.9",
+    "@gauntface/hugo-node": "1.0.10",
     "@hopin/hugo-base-theme": "0.0.319",
     "@hopin/hugo-styleguide": "0.0.189",
     "@hopin/wbt-clean": "0.0.126",
