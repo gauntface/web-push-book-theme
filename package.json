@@ -26,13 +26,13 @@
   "homepage": "https://github.com/gauntface/web-push-book-theme#readme",
   "devDependencies": {
     "@gauntface/html-asset-manager": "1.0.4",
-    "@gauntface/hugo-node": "1.0.17",
-    "@hopin/hugo-base-theme": "0.0.327",
-    "@hopin/hugo-styleguide": "0.0.197",
+    "@gauntface/hugo-node": "1.0.20",
+    "@hopin/hugo-base-theme": "0.0.336",
+    "@hopin/hugo-styleguide": "0.0.203",
     "@hopin/wbt-clean": "0.0.126",
     "@hopin/wbt-css": "0.0.126",
     "@hopin/wbt-ts-browser": "0.0.126",
-    "ava": "3.11.0",
+    "ava": "3.13.0",
     "dir-compare": "2.3.0",
     "fs-extra": "9.0.1"
   }
