@@ -1,0 +1,11 @@
+{{ define "main"}}
+{{ partial "components/c-header.html" . }}
+<main class="l-content">
+  <h1>Oops</h1>
+
+  <p>Sorry, the page you are looking for couldn't be found.</p>
+  
+  <p>Maybe <a href="{{ "/" | relURL }}">head to the home page</a> and see what pages we have.</p>
+</main>
+{{ partial "components/c-footer.html" . }}
+{{ end }}
