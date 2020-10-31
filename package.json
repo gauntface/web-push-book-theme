@@ -28,7 +28,7 @@
     "@gauntface/html-asset-manager": "1.0.4",
     "@gauntface/hugo-node": "1.0.20",
     "@hopin/hugo-base-theme": "0.0.338",
-    "@hopin/hugo-styleguide": "0.0.204",
+    "@hopin/hugo-styleguide": "0.0.205",
     "@hopin/wbt-clean": "0.0.126",
     "@hopin/wbt-css": "0.0.126",
     "@hopin/wbt-ts-browser": "0.0.126",
