@@ -32,7 +32,7 @@
     "@hopin/wbt-clean": "0.0.126",
     "@hopin/wbt-css": "0.0.126",
     "@hopin/wbt-ts-browser": "0.0.126",
-    "ava": "4.3.0",
+    "ava": "6.1.2",
     "dir-compare": "4.0.0",
     "fs-extra": "10.1.0"
   }
